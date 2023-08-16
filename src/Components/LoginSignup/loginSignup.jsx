@@ -46,7 +46,11 @@ const LoginSignup = () => {
               alt="hide"
               className={showPassword ? "show" : "hide"}
             />
-            <img src={show} alt="show" className={showPassword ? "hide" : ""} />
+            <img
+              src={show}
+              alt="show"
+              className={showPassword ? "hide" : "show"}
+            />
           </span>
         </div>
       </div>
